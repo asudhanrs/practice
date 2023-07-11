@@ -14,34 +14,37 @@
     <h1 style="text-align: center;color: lightblue;"> BMI Calculator</h1>
     <div class="container">
         <div>
-            <form>
-                <div class="row">
+                <!-- <div class="row">
                     <label class="heading"><b>Age</b></label>
-                    <input type="text" id="age">
-                </div>
-                <div class="row">
+                    <input class="input" type="text" id="age">
+                </div> -->
+                <!-- <div class="row">
                     <label class="heading"><b>Gender</b></label>
                     <input type="radio" id="male">
                     <label>Male</label>
                     <input type="radio" id="female">
                     <label>Female</label>
-                </div>
+                </div> -->
                 <div class="row">
                     <label class="heading"><b>Weight(Kg)</b></label>
-                    <input type="text" id="weight">
+                    <input class="input" type="number" id="weight">
                 </div>
                 <div class="row">
                     <label class="heading"><b>Height(Cm)</b></label>
-                    <input type="text" id="height">
+                    <input class="input" type="number" id="height">
                 </div>
                 <div  style="text-align: center;">
-                    <button class="btn">Calculate</button>
+                    <button class="btn" onclick="bmiCal()">Calculate</button>
                 </div>
-            </form>
         </div>
     </div>
+    <div style="text-align: center;" id="bmi1">
+    </div>
 </div>
-</body>
+
+
 <script src="E:/Angular%20Pro/practice/BMI/script.js"></script>
+</body>
+
 
 </html>
