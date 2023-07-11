@@ -1,0 +1,17 @@
+.row{
+    display: flex;
+    width: 200px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.row .sub{
+    width: 60px;
+}
+
+.row .sub1{
+    width: 60px;
+    font-size: 22px;
+    line-height: 14px;
+}
+
